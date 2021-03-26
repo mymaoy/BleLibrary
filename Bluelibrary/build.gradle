@@ -18,6 +18,8 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
+        
+        maven { url 'https://jitpack.io' }
     }
 
     buildTypes {
